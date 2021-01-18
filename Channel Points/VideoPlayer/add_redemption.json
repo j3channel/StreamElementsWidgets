@@ -1,0 +1,12 @@
+"redemption_name_X": {
+  "type": "text",
+  "label": "Redemption Name",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_video_X": {
+  "type": "video-input",
+  "label": "Redemption Video",
+  "value": "",
+  "group": "Redemptions"
+},
