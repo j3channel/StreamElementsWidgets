@@ -6,7 +6,7 @@
 },
 "redemption_audio_X": {
   "type": "sound-input",
-  "label": "Redemption Video",
+  "label": "Redemption Sound",
   "value": "",
   "group": "Redemptions"
 },
