@@ -8,7 +8,7 @@ To use these Widgets please do the following:
 4. Replace ALL text in the HTML tab with the .html file
 5. Replace ALL text in the CSS tab with the .css file
 6. Replace ALL text in the JS tab with the .js file
-7. Replace ALL text in the FIELDS tab with the .fields file
+7. Replace ALL text in the FIELDS tab with the .json file
 8. Click 'DONE' in the bottom-right.
 9. Use the left-hand bar 'Settings' to customise the widget to your own needs.
 10. Enjoy!
