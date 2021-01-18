@@ -1,0 +1,151 @@
+{
+  "oauth": {
+    "type": "text",
+    "label": "OAuth Token",
+    "value": "",
+    "group": "API"
+  },
+  "redemption_name_1": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_1": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_2": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_2": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_3": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_3": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_4": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_4": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_5": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_5": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_6": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_6": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_7": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_7": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_8": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_8": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_9": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_9": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_10": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_audio_10": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "queue_refresh": {
+    "type": "number",
+    "label": "Refresh Rate (Seconds)",
+    "value": 1,
+    "group": "Queue"
+  },
+  "volume": {
+    "type": "slider",
+    "label": "Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Video"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Sound Player"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "J3Channel"
+  }
+}
