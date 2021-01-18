@@ -1,5 +1,5 @@
 # SELECT YOUR CHANNEL POINT REDEMPTIONS
-After you have done the above, you will need to tell the Widget which redemption should play which file.
+You will need to tell the Widget which redemption should play which file.
 
 1. Go to the 'Settings' -> 'Redemptions' tab of the widget in StreamElements
 2. Type in the *exact* name of the Channel Point Redemption name you want to use.
