@@ -139,5 +139,13 @@
     "step": 1,
     "value": 75,
     "group": "Video"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Video Player"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "J3Channel"
   }
 }
