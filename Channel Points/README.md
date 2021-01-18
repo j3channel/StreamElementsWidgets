@@ -18,7 +18,7 @@ After you have done the above, you will need to tell the Widget which redemption
 4. Under 'Set Video' or 'Set Sound', find the file you wish for the redemption to play.
 5. Give it a test! It should now play it.
 
-#ADDING MORE REDEMPTIONS
+# ADDING MORE REDEMPTIONS
 By default I've allowed up to 10 redemptions for each widget. If you need more, follow these instructions:
 
 1. Go to 'Settings' -> 'Open Editor' -> 'FIELDS'
@@ -32,7 +32,7 @@ By default I've allowed up to 10 redemptions for each widget. If you need more, 
     "group": "Redemptions"
   },
   "redemption_audio_X": {
-    "type": "video-input",
+    "type": "sound-input",
     "label": "Redemption Video",
     "value": "",
     "group": "Redemptions"
@@ -45,7 +45,7 @@ By default I've allowed up to 10 redemptions for each widget. If you need more, 
     "value": "",
     "group": "Redemptions"
   },
-  "redemption_audio_X": {
+  "redemption_video_X": {
     "type": "video-input",
     "label": "Redemption Video",
     "value": "",
