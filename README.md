@@ -2,7 +2,7 @@
 We've created some Widgets that you can integrate with your own StreamElements overlays!
 
 ## Channel Points
-Widgets will interact with your Channel points!
+Widgets that will interact with your Channel points!
 
 **Sound Player** - Will play sounds when channel points are redeemed.
 
