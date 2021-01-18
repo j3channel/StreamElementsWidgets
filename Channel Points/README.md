@@ -1,4 +1,4 @@
-#HOW TO INTEGRATE CHANNEL POINTS
+# HOW TO INTEGRATE CHANNEL POINTS
 After you have pasted the code into StreamElements, you need to grant them access to the PubSub API to allow integration with Channel Points.
 
 1. Go to https://twitchtokengenerator.com (shoutout to SwiftySpiffy for making this!)
@@ -9,7 +9,7 @@ After you have pasted the code into StreamElements, you need to grant them acces
 6. Copy the generated 'Access Token' field
 7. Paste this into the 'Settings' -> 'API' tab of the Widget in StreamElements (in the left-hand bar).
 
-#SELECT YOUR CHANNEL POINT REDEMPTIONS
+# SELECT YOUR CHANNEL POINT REDEMPTIONS
 After you have done the above, you will need to tell the Widget which redemption should play which file.
 
 1. Go to the 'Settings' -> 'Redemptions' tab of the widget in StreamElements
