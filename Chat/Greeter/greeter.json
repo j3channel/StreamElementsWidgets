@@ -1,0 +1,94 @@
+{
+  "background_colour": {
+    "type": "colorpicker",
+    "label": "Background Colour",
+    "value": "#1B262C",
+    "group": "Branding"
+  },
+  "text_colour": {
+    "type": "colorpicker",
+    "label": "Text Colour",
+    "value": "#fff",
+    "group": "Branding"
+  },
+  "accent_colour": {
+    "type": "colorpicker",
+    "label": "Accent Colour",
+    "value": "#bbe1fa",
+    "group": "Branding"
+  },
+  "font_name": {
+    "type": "googleFont",
+    "label": "Font Name",
+    "value": "Abel",
+    "group": "Branding"
+  },
+  "font_size": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 16,
+    "group": "Branding"
+  },
+  "duration": {
+    "type": "number",
+    "label": "Duration (Secs)",
+    "value": 5,
+    "group": "Display"
+  },
+  "corner_radius": {
+    "type": "number",
+    "label": "Corner Radius",
+    "value": 15,
+    "group": "Display"
+  },
+  "padding": {
+    "type": "number",
+    "label": "Padding",
+    "value": 50,
+    "group": "Display"
+  },
+  "ignore": {
+    "type": "text",
+    "label": "Ignore Users (space-separated)",
+    "value": "streamelements streamlabs",
+    "group": "Message"
+  },
+  "welcome_message_1": {
+    "type": "text",
+    "label": "Welcome Message 1",
+    "value": "Hello {name}!",
+    "group": "Message"
+  },
+  "welcome_message_2": {
+    "type": "text",
+    "label": "Welcome Message 2",
+    "value": "",
+    "group": "Message"
+  },
+  "welcome_message_3": {
+    "type": "text",
+    "label": "Welcome Message 3",
+    "value": "",
+    "group": "Message"
+  },
+  "welcome_message_4": {
+    "type": "text",
+    "label": "Welcome Message 4",
+    "value": "",
+    "group": "Message"
+  },
+  "welcome_message_5": {
+    "type": "text",
+    "label": "Welcome Message 5",
+    "value": "",
+    "group": "Message"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Greeter"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "J3Channel"
+  }
+}
