@@ -11,4 +11,4 @@ Widgets that will interact with your Channel points!
 ## Chat
 Widgets that will interact with your chat!
 
-**Greeter** - Show an on-screen message when a viewer types in chat for the first time!
+**Greeter** - Show an on-screen welcome message when a viewer types in chat for the first time!
