@@ -5,6 +5,7 @@ We've created some Widgets that you can integrate with your own StreamElements o
 Widgets will interact with your Channel points!
 
 **Sound Player** - Will play sounds when channel points are redeemed.
+
 **Video Player** - Will play videos on-screen when channel points are redeemed.
 
 ## Chat
