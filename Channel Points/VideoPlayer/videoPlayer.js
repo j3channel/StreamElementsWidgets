@@ -84,14 +84,9 @@ window.addEventListener('onWidgetLoad', function(obj) {
   console.log("Widget has loaded! Noice!");
   console.log(obj);
   
-  // Force an update of the session data
-  onWidgetSessionUpdated(obj);
-  
   initialize(obj);
   start();
 });
-
-window.addEventListener('onSessionUpdate', onWidgetSessionUpdated);
 
 function openWebSocket(url) {
   console.log("Opening web socket for URL: " + url);
