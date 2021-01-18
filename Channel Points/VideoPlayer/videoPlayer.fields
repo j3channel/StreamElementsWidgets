@@ -1,0 +1,143 @@
+{
+  "oauth": {
+    "type": "text",
+    "label": "OAuth Token",
+    "value": "",
+    "group": "API"
+  },
+  "redemption_name_1": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_1": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_2": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_2": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_3": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_3": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_4": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_4": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_5": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_5": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_6": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_6": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_7": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_7": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_8": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_8": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_9": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_9": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_name_10": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_10": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "queue_refresh": {
+    "type": "number",
+    "label": "Refresh Rate (Seconds)",
+    "value": 1,
+    "group": "Queue"
+  },
+  "volume": {
+    "type": "slider",
+    "label": "Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Video"
+  }
+}
