@@ -2,7 +2,7 @@
 Here you'll find widgets that will interact with your chat!
 
 # HOW TO: ADD TO YOUR OVERLAY
-To use these Widgets please do the following:
+To use these Widgets do the following:
 
 1. Go to the Overlay you would like to use in your StreamElements account
 2. In the bottom left click '+' -> 'Static/Custom' -> 'Custom Widget'
