@@ -8,4 +8,4 @@ This widget will show an on-screen welcome message to users that type in chat fo
 
 **Messages** - Set usernames to ignore (such as bots or your own channel) and up to 5 messages to randomly select for each new user.
 
-Adjust the **Width/Height** and **Position** using *Settings* -> *Position, size and style*
+Adjust the **Width/Height** and **Position** using *Settings* -> *Position, size and style*. I suggest setting the width to the same width as the overlay canvas, but this is not necessary.
