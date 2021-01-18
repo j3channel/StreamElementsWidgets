@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family={font_name}&display=swap');
+
+:root {
+  --background-colour: {{background_colour}};
+  --text-colour: {{text_colour}};
+  --accent-colour: {{accent_colour}};
+  
+  --font-name: {{font_name}};
+  --font-size: {{font_size}}px;
+  
+  --corner-radius: {{corner_radius}}px;
+  --padding: {{padding}}px;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin: auto;
+  opacity: 0;
+  
+  height: 100%;
+  width: max-content;
+  
+  padding-left: var(--padding);
+  padding-right: var(--padding);
+  
+  border-radius: var(--corner-radius);
+  
+  background-color: var(--background-colour);
+  font-family: '{font_name}', cursive !important;
+  
+  transition: opacity 1s ease 0s;
+}
+
+.text {
+  width: 100%;
+  text-align: center;
+  color: var(--text-colour);
+  font-size: var(--font-size);
+}
+
+.accent {
+  color: var(--accent-colour) !important;
+}
