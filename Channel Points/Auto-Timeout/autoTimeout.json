@@ -7,7 +7,7 @@
   },
   "timeout_self_response": {
     "type": "text",
-    "label": "Response",
+    "label": "Response (Variables {user})",
     "value": "{user} has been timed out!",
     "group": "Timeout Self"
   },
@@ -31,7 +31,7 @@
   },
   "timeout_other_response": {
     "type": "text",
-    "label": "Response",
+    "label": "Response (Variables {user} and {target})",
     "value": "{user} has timed out {target}!",
     "group": "Timeout Other"
   },
