@@ -1,0 +1,91 @@
+{
+  "timeout_self_name": {
+    "type": "text",
+    "label": "Name",
+    "value": "",
+    "group": "Timeout Self"
+  },
+  "timeout_self_response": {
+    "type": "text",
+    "label": "Response",
+    "value": "{user} has been timed out!",
+    "group": "Timeout Self"
+  },
+  "timeout_self_duration": {
+    "type": "number",
+    "label": "Duration (seconds)",
+    "value": 60,
+    "group": "Timeout Self"
+  },
+  "timeout_self_sound": {
+    "type": "sound-input", 
+    "label": "Sound",
+    "value": "",
+    "group": "Timeout Self"
+  },
+  "timeout_other_name": {
+    "type": "text",
+    "label": "Name",
+    "value": "",
+    "group": "Timeout Other"
+  },
+  "timeout_other_response": {
+    "type": "text",
+    "label": "Response",
+    "value": "{user} has timed out {target}!",
+    "group": "Timeout Other"
+  },
+  "timeout_other_duration": {
+    "type": "number",
+    "label": "Duration (seconds)",
+    "value": 60,
+    "group": "Timeout Other"
+  },
+  "timeout_other_sound": {
+    "type": "sound-input", 
+    "label": "Sound",
+    "value": "",
+    "group": "Timeout Other"
+  },
+  "chat_name": {
+    "type": "text",
+    "label": "Chatbot Name",
+    "value": "",
+    "group": "Settings"
+  },
+  "chat_connected": {
+    "type": "text",
+    "label": "Chatbot Connected Message",
+    "value": "",
+    "group": "Settings"
+  },
+  "chat_oauth": {
+    "type": "text",
+    "label": "Chatbot OAuth Token",
+    "value": "",
+    "group": "Settings"
+  },
+  "redemptions_oauth": {
+    "type": "text",
+    "label": "Redemptions OAuth Token",
+    "value": "",
+    "group": "Settings"
+  },
+  "volume": {
+    "type": "slider",
+    "label": "Sound Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Settings"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Auto-Timeout v1"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "J3Channel"
+  }
+}
