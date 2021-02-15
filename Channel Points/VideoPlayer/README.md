@@ -15,7 +15,7 @@ You will need to tell the Widget which redemption should play which file.
 
 1. Go to the *Redemptions* section of the widget in StreamElements.
 2. Set the *Redemption Name* field to the **exact name of the redemption** you would like to hook it to.
-3. Set *Video* to the file you wish for the redemption to play.
+3. Set *Redemption Video* to the file you wish for the redemption to play.
 4. Give it a test!
 
 # ADDING MORE REDEMPTIONS
