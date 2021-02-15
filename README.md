@@ -14,4 +14,5 @@ Widgets that can be integrated with Twitch Channel Points.
 
 ## Chat
 Widgets that can be integrated with your chat.
+
 **Greeter** - Show an on-screen welcome message when a viewer types in chat for the first time!
