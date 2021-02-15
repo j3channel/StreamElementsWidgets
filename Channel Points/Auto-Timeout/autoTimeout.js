@@ -110,10 +110,10 @@ function onAudioEnded() {
 function onQueueCheck() {
   // If we're not currently playing something and there is a queued person
   if (!state.playing && state.queue.length > 0 && chatServer != null) {
+    let event = state.queue.shift();
+    
     // Send the chat command if available
     console.log('[AUTO-TIMEOUT] - Timing out: ' + event.target);
-    
-    let event = state.queue.shift();
     
     state.playing = true;
     
