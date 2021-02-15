@@ -1,3 +1,15 @@
+# HOW TO: INTEGRATE YOUR CHANNEL POINTS
+After you have pasted the code into StreamElements, you need to grant them access to the PubSub API to allow integration with Channel Points.
+
+1. Go to https://twitchtokengenerator.com and select **Custom Scope**.
+2. Scroll down to the 'Helix' section and set *channel:read:redemptions* to 'Yes'.
+3. Click 'Generate Token' at the bottom
+4. Ensure you are signed in with the **Twitch account you will be streaming from**.
+5. Allow access in the authentication window.
+6. Copy the generated 'Access Token' field
+7. Open the *API* section of the widget in StreamElements.
+8. Paste the access code into the *OAuth* field.
+
 # SELECT YOUR CHANNEL POINT REDEMPTIONS
 You will need to tell the Widget which redemption should play which file.
 
