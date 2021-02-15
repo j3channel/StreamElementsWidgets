@@ -7,6 +7,7 @@ You will need one or two OAuth keys depending on how you would like to set up th
 
 ## USING A CHATBOT
 If you would like a chatbot account to write in chat when somebody has been timed out.
+*NOTE: Redemptions will NOT be able to time out other moderators for your channel.*
 
 4. Ensure you are logged in on the **Twitch Account you are going to be streaming from** and allow access.
 5. Copy the **Access Token** into the widget's *Settings -> Redemptions OAuth Key* field.
@@ -20,6 +21,8 @@ If you would like a chatbot account to write in chat when somebody has been time
 
 ## USING THE STREAMING ACCOUNT
 If you would like your own account to write in chat when somebody has been timed out.
+*NOTE: Redemptions WILL be able to time out other moderators for your channel and will remove their moderator privileges.
+       You can add these back manually by typing /mod username in chat from your streaming account.*
 
 4. Also under the 'Helix' category change *channel:moderate* to 'Yes'.
 5. Under the 'v5' category change *chat_login* to 'Yes'.
