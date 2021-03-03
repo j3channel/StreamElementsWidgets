@@ -120,8 +120,12 @@ function onQueueCheck() {
     sendChatMessage('/timeout @' + event.target + ' ' + event.duration);
     sendChatMessage(event.response.replace('{target}', event.target).replace('{user}', event.sender));
     
-    audio.setAttribute('src', event.sound);
-    audio.play();
+    if (event.sound) {
+      audio.setAttribute('src', event.sound);
+      audio.play();
+    }
+    else
+      state.playing = false;
   }
 }
 
