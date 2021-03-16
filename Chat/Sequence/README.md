@@ -1,4 +1,4 @@
-# Sequence
+# SEQUENCE CHATBOT
 This widget will allow a bot to respond to a sequence of trigger phrases, then play a sound when the sequence has finished.
 
 
