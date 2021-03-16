@@ -20,6 +20,8 @@ These are accessed by going to your StreamElements Overlay containing this widge
 
 ### Bot
 **Connected Message** - Message to write in chat when the bot has connected. *(Can be left blank if not required)*
+**Bot Username** - The username of the Twitch bot account. *(See instructions above)*
+**Bot OAuth** - The OAuth token for the twitch bot account. *(See instructions above)*
 
 ### Sequence
 **Trigger** - Phrase that will trigger the next **Reply**. *(Can be left blank if not required)*
