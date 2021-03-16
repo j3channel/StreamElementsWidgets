@@ -20,15 +20,21 @@ These are accessed by going to your StreamElements Overlay containing this widge
 
 ### Bot
 **Connected Message** - Message to write in chat when the bot has connected. *(Can be left blank if not required)*
+
 **Bot Username** - The username of the Twitch bot account. *(See instructions above)*
+
 **Bot OAuth** - The OAuth token for the twitch bot account. *(See instructions above)*
 
 ### Sequence
 **Trigger** - Phrase that will trigger the next **Reply**. *(Can be left blank if not required)*
+
 **Reply** - The message the bot will reply with when the above **Trigger** is detected. *(Can be left blank if not required)*
+
 **End Sound** - The sound to be played when the end of the sequence is reached. *(Can be left blank if not required)*
 
 ### Settings
 **Cooldown** - How many minutes to be on cooldown before allowing the sequence to start again.
+
 **Cooldown End Message** - Write a message in chat when the cooldown has ended. *(Can be left blank if not required)*
+
 **Audio Volume** - Volume of the sound player
