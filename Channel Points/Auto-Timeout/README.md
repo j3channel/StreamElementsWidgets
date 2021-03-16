@@ -43,6 +43,7 @@ If you would like your own account to write in chat when somebody has been timed
 You will need to tell the widget which redemption(s) will time users out.
 
 **Timeout Self** - Will time out the user that redeemed the channel point reward.
+
 **Timeout Other** - Will time out another user specified in the channel point's text field by the redeemer. *NOTE: The reward will need to have **Require Viewer to Enter Text** enabled through the custom rewards editor on your Twitch Dashboard for this to work.*
 
 1. Set *Name* field to the name of the redemption you want to hook it to. Ensure the name **exactly matches**.
