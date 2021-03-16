@@ -1,6 +1,8 @@
 # SEQUENCE CHATBOT
 This widget will allow a bot to respond to a sequence of trigger phrases, then play a sound when the sequence has finished.
 
+**NOTE**: This widget requires no HTML or CSS, so please remove *all* default code from the widget after adding a new 
+custom widget in your StreamElements Overlay.
 
 # OAUTH KEYS SETUP
 You will need an OAuth key to allow your bot to respond in chat.
