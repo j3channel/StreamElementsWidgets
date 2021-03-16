@@ -1,0 +1,107 @@
+{
+  "bot_connected": {
+    "type": "text",
+    "label": "Connected Message",
+    "value": "",
+    "group": "Bot"
+  },
+  "bot_name": {
+    "type": "text",
+    "label": "Bot Username",
+    "value": "",
+    "group": "Bot"
+  },
+  "bot_oauth": {
+    "type": "text",
+    "label": "Bot OAuth",
+    "value": "",
+    "group": "Bot"
+  },
+  "trigger_0": {
+    "type": "text",
+    "label": "Trigger",
+    "value": "",
+    "group": "Sequence"
+  },
+  "phrase_0": {
+    "type": "text",
+    "label": "Reply (Variables: {user})",
+    "value": "",
+    "group": "Sequence"
+  },
+  "trigger_1": {
+    "type": "text",
+    "label": "Trigger",
+    "value": "",
+    "group": "Sequence"
+  },
+  "phrase_1": {
+    "type": "text",
+    "label": "Reply (Variables: {user})",
+    "value": "",
+    "group": "Sequence"
+  },
+  "trigger_2": {
+    "type": "text",
+    "label": "Trigger",
+    "value": "",
+    "group": "Sequence"
+  },
+  "phrase_2": {
+    "type": "text",
+    "label": "Reply (Variables: {user})",
+    "value": "",
+    "group": "Sequence"
+  },
+  "trigger_3": {
+    "type": "text",
+    "label": "Trigger",
+    "value": "",
+    "group": "Sequence"
+  },
+  "phrase_3": {
+    "type": "text",
+    "label": "Reply (Variables: {user})",
+    "value": "",
+    "group": "Sequence"
+  },
+  "trigger_4": {
+    "type": "text",
+    "label": "Trigger",
+    "value": "",
+    "group": "Sequence"
+  },
+  "phrase_4": {
+    "type": "text",
+    "label": "Reply 5 (Variables: {user})",
+    "value": "",
+    "group": "Sequence"
+  },
+  "sound": {
+    "type": "sound-input",
+    "label": "End Sound",
+    "value": "",
+    "group": "Sequence"
+  },
+  "cooldown": {
+    "type": "number",
+    "label": "Cooldown (Minutes)",
+    "value": 5,
+    "group": "Settings"
+  },
+  "cooldown_end": {
+    "type": "text",
+    "label": "Cooldown End Message",
+    "value": "",
+    "group": "Settings"
+  },
+  "volume": {
+    "type": "slider",
+    "label": "Audio Volume",
+    "value": 75,
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "group": "Settings"
+  }
+}
