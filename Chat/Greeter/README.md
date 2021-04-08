@@ -17,6 +17,8 @@ To add this widget to your overlay, follow these steps:
 11. Click *Done* in the bottom-right.
 
 ## Settings
+This widget can be customised to suit your stream. To do this, click on this widget in your StreamElements Overlay, click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
+
 **Branding** - Customise the look and feel of the widget.
 
 **Display** - Customise the duration and layout of each message.
