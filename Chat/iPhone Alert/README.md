@@ -30,7 +30,7 @@ In case you are unsure what any of the settings do, here is a glossary:
 
 *Icon* - The icon displayed in the header of the notification.
 
-*Alert* - The sound that will be played when the notification is displayed.
+*Alert* - The sound that will be played when the notification is displayed. (Can be left blank if no audio required)
 
 *Volume* - The volume for the alert sound.
 
