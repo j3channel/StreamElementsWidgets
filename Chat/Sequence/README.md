@@ -41,7 +41,7 @@ This widget can be customised to suit your stream. To do this, click on this wid
 ### Sequence
 *Trigger* - Phrase that will trigger the next **Reply**. *(Can be left blank if not required)*
 
-*Reply* - The message the bot will reply with when the *Trigger* message is detected. *(Can be left blank if not required)*
+*Reply* - The message the bot will reply with when the **Trigger** message is detected. *(Can be left blank if not required)*
 
 *End Sound* - The sound to be played when the end of the sequence is reached. *(Can be left blank if not required)*
 
