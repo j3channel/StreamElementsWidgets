@@ -29,7 +29,7 @@ You will need an *OAuth key* to allow your bot to respond in chat.
 8. Set the **Bot** -> **Bot Username** to your bot's Twitch username.
 
 ## SETTINGS
-This widget can be customised to suit your stream. To do this, click on this widget in your StreamElements Overlay abd click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
+This widget can be customised to suit your stream. To do this, click on this widget in your StreamElements Overlay, click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
 
 ### Bot
 *Connected Message* - Message to write in chat when the bot has connected. *(Can be left blank if not required)*
