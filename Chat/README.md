@@ -1,15 +1,19 @@
 # CHAT WIDGETS
-Here you'll find widgets that will interact with your chat!
+This section contains widgets that will interact with your chat!
 
-# HOW TO: ADD TO YOUR OVERLAY
-To use these Widgets do the following:
+**NOTE:** Instructions for how to add each widget to your overlay are included in the README.md file of each branch.
 
-1. Go to the Overlay you would like to use in your StreamElements account
-2. In the bottom left click '+' -> 'Static/Custom' -> 'Custom Widget'
-3. Click the new Widget and go to 'Settings' -> 'Open Editor' in the left-hand bar
-4. Replace ALL text in the HTML tab with the .html file
-5. Replace ALL text in the CSS tab with the .css file
-6. Replace ALL text in the JS tab with the .js file
-7. Replace ALL text in the FIELDS tab with the .json file
-8. Click 'DONE' in the bottom-right.
-9. Use the left-hand bar 'Settings' to customise the widget to your own needs.
+## GREETER
+A widget that will display a small welcome message to users that type a message into your chat for the first time once per stream.
+
+You can customise the look of this widget to match the theme of your own stream!
+
+## IPHONE ALERT
+A widget that plays a sound *(optional)* and displays an iPhone-style notification when a user writes a message into your chat for the first time once per stream.
+
+You can customise the look and sound of this widget match the theme of your own stream!
+
+## SEQUENCE
+A chat-bot widget that will respond in chat to a sequence of messages you choose and play a sound when the end of the sequence is reached.
+
+
