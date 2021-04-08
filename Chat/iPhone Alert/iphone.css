@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family={header_font}&display=swap');
+@import url('https://fonts.googleapis.com/css2?family={body_font}&display=swap');
+
+:root {  
+  /* COLOURS */
+  --body-colour: {{body_colour}};
+  --body-fontcolour: {{body_fontcolour}};
+  --header-colour: {{header_colour}};
+  --header-fontcolour: {{header_fontcolour}};
+  
+  /* OTHER */
+  --border-radius: {{border_radius}}px;
+  --top-margin: {{top_margin}}px;
+  
+  /* SIZE */
+  --header-height: {{header_height}}px;
+  
+  /* TEXT */
+  --body-fontsize: {{body_fontsize}}px;
+  --body-maxlines: {{body_maxlines}};
+  --header-fontsize: {{header_fontsize}}px;
+}
+
+body {
+  height: 100%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  position: absolute;
+  left: 0px;
+  margin-top: var(--top-margin);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+  color: var(--header-fontcolour);
+  background-color: var(--header-colour);
+  font-family: '{header_font}', cursive;
+  font-size: var(--header-fontsize);
+  font-weight: lighter;
+  height: var(--header-height);
+}
+
+	.header > * {
+      float: left;
+	}
+
+	.header > img {
+      border-radius: 5px;
+      margin: 6px;
+      height: calc(var(--header-height) - 12px);
+      width: auto;
+	}
+
+    .header > span {
+      line-height: var(--header-height);
+    }
+
+	.header > span.now {
+      float: right;
+      margin-right: 10px;
+	}
+
+.body {
+  border-radius: 0px 0px var(--border-radius) var(--border-radius);
+  color: var(--body-fontcolour);
+  background-color: var(--body-colour);
+  font-family: '{body_font}', cursive;
+  font-size: var(--body-fontsize);
+  line-height: 1.1;
+  overflow: auto;
+}
+
+  .body > span {
+    display: inline-block;
+    max-width: calc(100% - 20px);
+    overflow: hidden;
+  }
+
+	.body > span.sender {
+      font-weight: bold;
+      margin: 10px 15px 0px 15px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+	}
+
+	.body > span.message {
+      display: -webkit-box;
+      margin: 0px 15px 10px 15px;
+      -webkit-line-clamp: var(--body-maxlines);
+      -webkit-box-orient: vertical;
+	}
