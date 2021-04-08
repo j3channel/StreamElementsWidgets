@@ -22,7 +22,7 @@ This widget will automatically stretch to fill the *width* of the widget's outli
 You can change the widget's width and height by clicking on the Widget in your StreamElements overlay and selecting **Position, size and style** in the left-hand menu.
 
 ## SETTINGS
-You can customise this widget to better match your stream's design. To do this, click on the widget in your StreamElements overlay and click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
+This widget can be customised to suit your stream. To do this, click on this widget in your StreamElements Overlay, click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
 
 ### App
 *Name* - The 'application name' displayed in the header of the notification.
