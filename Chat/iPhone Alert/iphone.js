@@ -54,7 +54,9 @@ function start() {
   console.log("[IPHONE ALERT] - Starting...");
   
   let height = $('.container').outerHeight();
-  $('.container').animate({'top': `-${height}px`}, 500);
+  $('.container').animate({'top': `-${height}px`}, 500, function() {
+    $(this).css({'opacity': 1});
+  });
   
   // Check queue every second
   state.timers.queue = setInterval(onQueueCheck, 1000);
