@@ -17,7 +17,7 @@ To add this widget to your overlay, follow these steps:
 11. Click *Done* in the bottom-right.
 
 ## SIZE 
-This widget will automatically stretch to fill the *width* of the widget's outline in the overlay, but will **not** stretch to fill the *height* as message-lengths can vary. I recommend setting the height of the widget to the same height as your entire overlay to ensure the widget doesn't get cut off.
+This widget will automatically stretch to fill the *width* of the widget's outline in the overlay, but will **not** stretch to fill the *height* as message-lengths can vary (longer messages will fill more vertical space!). I recommend setting the height of the widget to the same height as your entire overlay to ensure the widget doesn't get cut off.
 
 You can change the widget's width and height by clicking on the Widget in your StreamElements overlay and selecting **Position, size and style** in the left-hand menu.
 
