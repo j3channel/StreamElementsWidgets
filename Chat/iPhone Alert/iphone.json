@@ -1,0 +1,124 @@
+{
+  "name": {
+    "type": "text",
+    "label": "Name",
+    "value": "MESSAGES",
+    "group": "App"
+  },
+  "icon": {
+    "type": "image-input",
+    "label": "Icon",
+    "value": "https://cdn.streamelements.com/uploads/bb60446d-664e-4a71-a76d-9c0848108ad6.png",
+    "group": "App"
+  },
+  "sound": {
+    "type": "sound-input",
+    "label": "Alert",
+    "value": "https://cdn.streamelements.com/uploads/c0e4b510-e1fe-4460-8fde-693c4cfabf1b.mp3",
+    "group": "App"
+  },
+  "volume": {
+    "type": "slider",
+    "label": "Alert Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "App"
+  },
+  "border_radius": {
+    "type": "number",
+    "label": "Corner Radius",
+    "value": 15,
+    "group": "App"
+  },
+  "top_margin": {
+    "type": "number",
+    "label": "Top Margin",
+    "value": 10,
+    "group": "App"
+  },
+  "header_colour": {
+    "type": "colorpicker",
+    "label": "Background Colour",
+    "value": "rgba(255,255,255,0.9)",
+    "group": "Header"
+  },
+  "header_fontcolour": {
+    "type": "colorpicker",
+    "label": "Text Colour",
+    "value": "rgba(0, 0, 0, 0.6)",
+    "group": "Header"
+  },
+  "header_font": {
+    "type": "googleFont",
+    "label": "Font",
+    "value": "Source Sans Pro",
+    "group": "Header"
+  },
+  "header_fontsize": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 20,
+    "group": "Header"
+  },
+  "header_height": {
+    "type": "number",
+    "label": "Height",
+    "value": 35,
+    "group": "Header"
+  },
+  "body_colour": {
+    "type": "colorpicker",
+    "label": "Background Colour",
+    "value": "rgba(255,255,255,0.7)",
+    "group": "Body"
+  },
+  "body_fontcolour": {
+    "type": "colorpicker",
+    "label": "Text Colour",
+    "value": "rgb(0,0,0)",
+    "group": "Body"
+  },
+  "body_font": {
+    "type": "googleFont",
+    "label": "Font",
+    "value": "Source Sans Pro",
+    "group": "Body"
+  },
+  "body_fontsize": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 20,
+    "group": "Body"
+  },
+  "ignore": {
+    "type": "text",
+    "label": "Ignore Usernames (space-separated)",
+    "value": "streamelements streamlabs nightbot",
+    "group": "Messages"
+  },
+  "duration": {
+    "type": "number",
+    "label": "Message Duration (seconds)",
+    "value": 10,
+    "group": "Messages"
+  },
+  "max_lines": {
+    "type": "slider",
+    "label": "Maximum Message Lines",
+    "min": 1,
+    "max": 5,
+    "step": 1,
+    "value": 3,
+    "group": "Messages"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "J3Channel"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "iPhone Alert"
+  }
+}
