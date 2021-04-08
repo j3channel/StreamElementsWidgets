@@ -16,14 +16,13 @@ To add this widget to your overlay, follow these steps:
 10. Delete *all* of the code inside the **Data** tab.
 11. Click *Done* in the bottom-right.
 
-## SIZE
-The widget will automatically display at the **same width** the widget is set to in your overlay. It **will not** adjust to the **height** because different messages will take up more/less vertical space if they span over additional lines.
-To change the width/height, click the widget in your StreamElements overlay and click *Position, Size and Style* in the left-hand menu and adjust the *Width* and *Height* properties.
-To avoid the notification getting cut off vertically, you could set the widget's height to the same height as your entire overlay.
+## SIZE 
+This widget will automatically stretch to fill the *width* of the widget's outline in the overlay, but will **not** stretch to fill the *height* as message-lengths can vary. I recommend setting the height of the widget to the same height as your entire overlay to ensure the widget doesn't get cut off.
+
+You can change the widget's width and height by clicking on the Widget in your StreamElements overlay and selecting **Position, size and style** in the left-hand menu.
 
 ## SETTINGS
-You can customise this widget to better match your stream's design. To do this, click on the widget in your StreamElements overlay and click *Settings* in the left-hand menu and browse the drop-down menus.
-In case you are unsure what any of the settings do, here is a glossary:
+You can customise this widget to better match your stream's design. To do this, click on the widget in your StreamElements overlay and click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
 
 ### App
 *Name* - The 'application name' displayed in the header of the notification.
