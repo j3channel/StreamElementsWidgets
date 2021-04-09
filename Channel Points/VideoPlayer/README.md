@@ -91,7 +91,7 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
   "value": 75,
   "group": "Redemptions"
 },
-  /* ***** END OF PASTED CODE ***** */
+/* ***** END OF PASTED CODE ***** */
 "queue_refresh": {
   "type": "number",
   "label": "Refresh Rate (Seconds)",
