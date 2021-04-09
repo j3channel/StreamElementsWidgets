@@ -15,7 +15,7 @@ To add this widget to your overlay, follow these steps:
 7. Replace *all* of the code in the **CSS** tab with the code inside the *soundPlayer.css* file in this repository.
 8. Replace *all* of the code in the **JS** tab with the code inside the *soundPlayer.js* file in this repository.
 9. Replace *all* of the code in the **Fields** tab with the code inside the *soundPlayer.json* file in this repository.
-10. Delete *all* of the code inside the **Data** tab.
+10. Replace *all* of the code inside the **Data** tab with: {}
 11. Click *Done* in the bottom-right.
 
 ## HOW TO: CONNECT THE WIDGET TO TWITCH
