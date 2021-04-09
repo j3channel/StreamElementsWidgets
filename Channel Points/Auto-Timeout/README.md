@@ -61,7 +61,7 @@ This will time out the user that redeemed the channel point reward. As per Twitc
 ### Timeout Other
 This will time out a user that the redeemer specifies in the reward redemption. As per Twitch's functionality, this will be unable to time out other moderators. 
 
-*NOTE: For this to work you will need to turn on **Require Viewer to Enter Text** for your Channel Point Reward. To do this, go to your Twitch Creator Dashboard and go to **Viewer Rewards** -> **Channel Points** -> **Manage Rewards & Challenges**. Click **Edit** on your reward and tick the **Require Viewer to Enter Text** check-box and click **Save**.
+*NOTE: For this to work you will need to turn on **Require Viewer to Enter Text** for your Channel Point Reward. To do this, go to your Twitch Creator Dashboard and go to **Viewer Rewards** -> **Channel Points** -> **Manage Rewards & Challenges**. Click **Edit** on your reward and tick the **Require Viewer to Enter Text** check-box and click **Save**.*
 
 **Channel Points Name** - The *exact* name of the channel point reward to trigger the time-out. *NOTE: Can be left blank if not required*.
 
