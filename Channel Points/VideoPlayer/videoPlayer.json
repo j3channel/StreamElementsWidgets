@@ -17,6 +17,15 @@
     "value": "",
     "group": "Redemptions"
   },
+  "redemption_volume_1": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Redemptions"
+  },
   "redemption_name_2": {
     "type": "text",
     "label": "Redemption Name",
@@ -27,6 +36,15 @@
     "type": "video-input",
     "label": "Redemption Video",
     "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_volume_2": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
     "group": "Redemptions"
   },
   "redemption_name_3": {
@@ -41,6 +59,15 @@
     "value": "",
     "group": "Redemptions"
   },
+  "redemption_volume_3": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Redemptions"
+  },
   "redemption_name_4": {
     "type": "text",
     "label": "Redemption Name",
@@ -51,6 +78,15 @@
     "type": "video-input",
     "label": "Redemption Video",
     "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_volume_4": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
     "group": "Redemptions"
   },
   "redemption_name_5": {
@@ -65,6 +101,15 @@
     "value": "",
     "group": "Redemptions"
   },
+  "redemption_volume_5": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Redemptions"
+  },
   "redemption_name_6": {
     "type": "text",
     "label": "Redemption Name",
@@ -75,6 +120,15 @@
     "type": "video-input",
     "label": "Redemption Video",
     "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_volume_6": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
     "group": "Redemptions"
   },
   "redemption_name_7": {
@@ -89,6 +143,15 @@
     "value": "",
     "group": "Redemptions"
   },
+  "redemption_volume_7": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Redemptions"
+  },
   "redemption_name_8": {
     "type": "text",
     "label": "Redemption Name",
@@ -99,6 +162,15 @@
     "type": "video-input",
     "label": "Redemption Video",
     "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_volume_8": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
     "group": "Redemptions"
   },
   "redemption_name_9": {
@@ -113,6 +185,15 @@
     "value": "",
     "group": "Redemptions"
   },
+  "redemption_volume_9": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Redemptions"
+  },
   "redemption_name_10": {
     "type": "text",
     "label": "Redemption Name",
@@ -123,6 +204,15 @@
     "type": "video-input",
     "label": "Redemption Video",
     "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_volume_10": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
     "group": "Redemptions"
   },
   "queue_refresh": {
