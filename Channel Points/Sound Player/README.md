@@ -49,55 +49,55 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
 
 ```json
 "redemption_name_10": {
-    "type": "text",
-    "label": "Redemption Name",
-    "value": "",
-    "group": "Redemptions"
-  },
-  "redemption_audio_10": {
-    "type": "sound-input",
-    "label": "Redemption Sound",
-    "value": "",
-    "group": "Redemptions"
-  },
-  "redemption_volume_10": {
-    "type": "slider",
-    "label": "Redemption Volume",
-    "min": 0,
-    "max": 100,
-    "step": 1,
-    "value": 75,
-    "group": "Redemptions"
-  },
-  /* ***** PASTE CODE HERE ***** */
-  "redemption_name_X": {
-    "type": "text",
-    "label": "Redemption Name",
-    "value": "",
-    "group": "Redemptions"
-  },
-  "redemption_sound_X": {
-    "type": "sound-input",
-    "label": "Redemption Sound",
-    "value": "",
-    "group": "Redemptions"
-  },
-  "redemption_volume_X": {
-    "type": "slider",
-    "label": "Redemption Volume",
-    "min": 0,
-    "max": 100,
-    "step": 1,
-    "value": 75,
-    "group": "Redemptions"
-  },
-  /* ***** END OF PASTED CODE ***** */
-  "queue_refresh": {
-    "type": "number",
-    "label": "Refresh Rate (Seconds)",
-    "value": 1,
-    "group": "Queue"
-  },
+  "type": "text",
+  "label": "Redemption Name",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_audio_10": {
+  "type": "sound-input",
+  "label": "Redemption Sound",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_volume_10": {
+  "type": "slider",
+  "label": "Redemption Volume",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "value": 75,
+  "group": "Redemptions"
+},
+/* ***** PASTE CODE HERE ***** */
+"redemption_name_X": {
+  "type": "text",
+  "label": "Redemption Name",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_sound_X": {
+  "type": "sound-input",
+  "label": "Redemption Sound",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_volume_X": {
+  "type": "slider",
+  "label": "Redemption Volume",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "value": 75,
+  "group": "Redemptions"
+},
+/* ***** END OF PASTED CODE ***** */
+"queue_refresh": {
+  "type": "number",
+  "label": "Refresh Rate (Seconds)",
+  "value": 1,
+  "group": "Queue"
+},
 ```
 
 5. Replace the *'X'* in **both** new node names with the next number in the sequence. *E.g. The last number in the code sample above is **10** so we will change the names of our pasted code to **redemption_name_11**, **redemption_audio_11** and **redemption_volume_11**.*
