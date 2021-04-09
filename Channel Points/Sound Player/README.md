@@ -54,9 +54,9 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
     "value": "",
     "group": "Redemptions"
   },
-  "redemption_video_10": {
-    "type": "video-input",
-    "label": "Redemption Video",
+  "redemption_sound_10": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
     "value": "",
     "group": "Redemptions"
   },
@@ -67,9 +67,9 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
     "value": "",
     "group": "Redemptions"
   },
-  "redemption_video_X": {
-    "type": "video-input",
-    "label": "Redemption Video",
+  "redemption_sound_X": {
+    "type": "sound-input",
+    "label": "Redemption Sound",
     "value": "",
     "group": "Redemptions"
   },
