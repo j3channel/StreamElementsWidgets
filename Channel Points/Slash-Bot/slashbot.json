@@ -91,13 +91,13 @@
   },
   "emote_only_response_continued": {
     "type": "text",
-    "label": "Response if Continued",
+    "label": "Extended Response",
     "value": "{user} extended emote-only chat by {duration}s!",
     "group": "Emote-Only Chat"
   },
   "emote_only_response_started": {
     "type": "text",
-    "label": "Response if Started",
+    "label": "Started Response",
     "value": "{user} started emote-only chat for {duration}s!",
     "group": "Emote-Only Chat"
   },
