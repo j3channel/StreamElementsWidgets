@@ -52,7 +52,7 @@ Click on the widget in your StreamElements overlay and click the **Settings** op
 ### Commercials
 You can set up to three different rewards to handle three different commercial lengths. If you don't need any, just leave the **Channel Points Name** field blank of any you do not require.
 
-**Channel Points Name** - Name of the channel point reward to trigger a commercial. *NOTE: Must be written exactly as shown on your Twitch Channel!*
+**Channel Points Name** - The *exact* name of the channel point reward to trigger a commercial. *NOTE: Can be left blank if not required*.
 
 **Advert Length** - Length (30/60/90/120/150/180 seconds) of the commercial to run.
 
@@ -61,7 +61,7 @@ You can set up to three different rewards to handle three different commercial l
 ### Emote-Only Chat
 This will start - or continue, if already in - emote-only mode in your channel's chat.
 
-**Channel Points Name** - Name of the channel point reward to trigger Emote-Only mode. *NOTE: Must be written exactly as shown on your Twitch Channel!*
+**Channel Points Name** - The *exact* name of the channel point reward to trigger emote-only chat. *NOTE: Can be left blank if not required*.
 
 **Duration** - Length (in seconds) to enable Emote-Only chat for.
 
@@ -72,7 +72,7 @@ This will start - or continue, if already in - emote-only mode in your channel's
 ### Timeout Self
 This will time out the user that redeemed the channel point reward. As per Twitch's functionality, this will be unable to time out other moderators.
 
-**Channel Points Name** - Name of the channel points reward to trigger the time-out. *NOTE: Must be written exactly as shown on your Twitch Channel!*
+**Channel Points Name** - The *exact* name of the channel point reward to trigger the time-out. *NOTE: Can be left blank if not required*.
 
 **Response** - Response to write in chat when the timeout occurs. *NOTE: Can be left blank if not required.*
 
@@ -85,7 +85,7 @@ This will time out a user that the redeemer specifies in the reward redemption. 
 
 *NOTE: For this to work you will need to turn on **Require Viewer to Enter Text** for your Channel Point Reward. To do this, go to your Twitch Creator Dashboard and go to **Viewer Rewards** -> **Channel Points** -> **Manage Rewards & Challenges**. Click **Edit** on your reward and tick the **Require Viewer to Enter Text** check-box and click **Save**.
 
-**Channel Points Name** - Name of the channel points reward to trigger the time-out. *NOTE: Must be written exactly as shown on your Twitch Channel!*
+**Channel Points Name** - The *exact* name of the channel point reward to trigger the time-out. *NOTE: Can be left blank if not required*.
 
 **Response** - Response to write in chat when the timeout occurs. *NOTE: Can be left blank if not required.*
 
