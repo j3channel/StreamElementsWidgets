@@ -67,7 +67,7 @@ This will start - or continue, if already in - emote-only mode in your channel's
 
 **Duration** - Length (in seconds) to enable Emote-Only chat for.
 
-**Response if Continued** - Response to write in chat when the emote-only mode is already enabled and is extended.
+**Response if Extended** - Response to write in chat when the emote-only mode is already enabled and is extended.
 
 **Response if Started** - Response to write in chat when emote-only mode is started.
 
