@@ -1,7 +1,7 @@
 # Slash-Bot
 A widget that will automatically perform Twitch Chat */commands* when Channel Point Rewards are redeemed.
 
-**Commercials** - Run a 30/60/90/120/150/180 second advert on your channel. You can have up to *three* different advert channel point rewards. *E.G One for 30s, one for 60s and one for 90s.*
+**Commercials** - Run a 30/60/90/120/150/180 second advert on your channel. You can have up to *three* different advert channel point rewards. *E.g One for 30s, one for 60s and one for 90s.*
 
 **Emote-Only Chat** - Will turn on Emote-Only Chat mode for a specified length of time before turning it back off again. If this is redeemed while the timer is already running, extra time will be added to the current emote-only chat mode.
 
