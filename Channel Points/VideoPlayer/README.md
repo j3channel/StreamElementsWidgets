@@ -33,11 +33,13 @@ This widget will need to be granted access to your channel's Channel Point Redem
 Click on the widget in your StreamElements overlay and click the **Settings** option in the left-hand menu. This will display a list of settings below to help customise which redemptions to listen out for and what sound they will play.
 
 ### Redemptions
-By default, you can set up to *ten* different sound-effect channel point rewards. If you need more, please see the **ADD MORE REDEMPTIONS** section below.
+By default, you can set up to *ten* different video channel point rewards. If you need more, please see the **ADD MORE REDEMPTIONS** section below.
 
-**Redemption Name** - The *exact* name of the channel point reward to trigger a sound. *NOTE: Can be left blank if not required*.
+**Redemption Name** - The *exact* name of the channel point reward to trigger a video. *NOTE: Can be left blank if not required*.
 
-**Redemption Video** - The audio file to play.
+**Redemption Video** - The video file to play.
+
+**Redemption Volume** - The volume this video should play at.
 
 ## HOW TO: ADD MORE REDEMPTIONS
 By default I've allowed for up to 10 redemptions. If you need more, follow these instructions:
