@@ -1,4 +1,4 @@
-# Slash-Bot
+# Sound Player
 A widget that will play a sound-effect when a user redeems a Channel Point reward.
 
 Full instructions to add the widget to your overlay, connect it to Twitch and set up the redemptions are below.
