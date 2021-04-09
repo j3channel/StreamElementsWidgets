@@ -1,24 +1,53 @@
-# HOW TO: INTEGRATE YOUR CHANNEL POINTS
-After you have pasted the code into StreamElements, you need to grant them access to the PubSub API to allow integration with Channel Points.
+# Slash-Bot
+A widget that will play a sound-effect when a user redeems a Channel Point reward.
+
+Full instructions to add the widget to your overlay, connect it to Twitch and set up the redemptions are below.
+
+**Commercials** - Run a 30/60/90/120/150/180 second advert on your channel. You can have up to *three* different advert channel point rewards. *E.g One for 30s, one for 60s and one for 90s.*
+
+**Emote-Only Chat** - Will turn on Emote-Only Chat mode for a specified length of time before turning it back off again. If this is redeemed while the timer is already running, extra time will be added to the current emote-only chat mode.
+
+**Timeout Self** - Will time out the user that redeemed the reward for a specified amount of time.
+
+**Timeout Other** - Will time out a user of the redeemer's choice *(excluding the broadcaster)* for a specified amount of time.
+
+## HOW TO: ADD THE WIDGET TO YOUR OVERLAY
+To add this widget to your overlay, follow these steps:
+
+1. Go to StreamElements, sign in and go to *My Overlays* in the left-hand menu.
+2. Click *Edit* on an existing overlay you would like to add this widget to **or** select *Create Blank Overlay* in the top-right.
+3. Click the circular *+* button at the bottom of the screen and select *Static / Custom* -> *Custom Widget*
+4. Click the new widget that has appeared in your overlay and click *Settings* in the left-hand menu.
+5. Click *Open Editor*
+6. Replace *all* of the code in the **HTML** tab with the code inside the *soundPlayer.html* file in this repository.
+7. Replace *all* of the code in the **CSS** tab with the code inside the *soundPlayer.css* file in this repository.
+8. Replace *all* of the code in the **JS** tab with the code inside the *soundPlayer.js* file in this repository.
+9. Replace *all* of the code in the **Fields** tab with the code inside the *soundPlayer.json* file in this repository.
+10. Delete *all* of the code inside the **Data** tab.
+11. Click *Done* in the bottom-right.
+
+## HOW TO: CONNECT THE WIDGET TO TWITCH
+This widget will need to be granted access to your channel's Channel Point Redemptions. To do this, follow the steps below:
 
 1. Go to https://twitchtokengenerator.com and select **Custom Scope**.
-2. Scroll down to the 'Helix' section and set *channel:read:redemptions* to 'Yes'.
-3. Click 'Generate Token' at the bottom
-4. Ensure you are signed in with the **Twitch account you will be streaming from**.
-5. Allow access in the authentication window.
-6. Copy the generated 'Access Token' field
-7. Open the *API* section of the widget in StreamElements.
-8. Paste the access code into the *OAuth* field.
+2. Under the **Helix** category, change **channel:read:redemptions** to **Yes** and everything else to **No**.
+3. Click **Generate** at the bottom of the page.
+4. When asked to authenticate, make sure you are logged in with **YOUR TWITCH STREAMING ACCOUNT** and click **Allow**.
+5. Copy the **Access Token** it provides you and head back to this widget in your StreamElements overlay.
+6. Click the widget and select **Settings** in the left-hand menu.
+7. Under the **API** drop-down that appears, paste your access token into the **OAuth** field.
 
-# SELECT YOUR CHANNEL POINT REDEMPTIONS
-You will need to tell the Widget which redemption should play which file.
+## HOW TO: LINK YOUR CHANNEL POINT REWARDS
+Click on the widget in your StreamElements overlay and click the **Settings** option in the left-hand menu. This will display a list of settings below to help customise which redemptions to listen out for and what sound they will play.
 
-1. Go to the *Redemptions* section of the widget in StreamElements.
-2. Set the *Redemption Name* field to the **exact name of the redemption** you would like to hook it to.
-3. Set *Redemption Sound* to the file you wish for the redemption to play.
-4. Give it a test!
+### Redemptions
+By default, you can set up to *ten* different sound-effect channel point rewards. If you need more, please see the **ADD MORE REDEMPTIONS** section below.
 
-# ADDING MORE REDEMPTIONS
+**Redemption Name** - The *exact* name of the channel point reward to trigger a sound. *NOTE: Can be left blank if not required*.
+
+**Redemption Sound** - The audio file to play.
+
+## HOW TO: ADD MORE REDEMPTIONS
 By default I've allowed for up to 10 redemptions. If you need more, follow these instructions:
 
 1. Go to *Settings -> Open Editor -> FIELDS* of the widget in StreamElements.
