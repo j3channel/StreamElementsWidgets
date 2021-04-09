@@ -11,7 +11,6 @@ let global = { // Settings that are set once and will always remain the same
     "retry": 10 // How long to wait before retrying connection to server
   },
   "redemptions": {}, // Every redemption and its video
-  "volume": 100 // Overall volume of the video player
 };
 
 let state = { // Settings that may change at any point
@@ -30,13 +29,12 @@ let webSocket = null; // WebSocket to connect to the server
 let videoPlayer = null; // Player of videos
 
 function start() {
-  console.log("Starting widget...");
+  console.log("[VIDEO PLAYER] - Starting widget...");
   
   // Set up the video player
   videoPlayer = document.createElement('video');
   videoPlayer.oncanplaythrough = onVideoCanPlayThrough;
   videoPlayer.onended = onVideoEnded;
-  videoPlayer.volume = global.volume / 100;
   videoPlayer.setAttribute('autoplay', false);
   
   // Add the video player to the DOM
@@ -45,12 +43,15 @@ function start() {
   // Start the Queue Timer
   state.timers.queue = setInterval(onQueueCheck, global.intervals.queue * 1000);
   
-  // Open the web socket to connect to the PubSub API for channel point redemptions
-  openWebSocket('wss://pubsub-edge.twitch.tv');
+  // Wait to connect to web socket
+  setTimeout(function() {
+    // Open the web socket to connect to the PubSub API for channel point redemptions
+  	openWebSocket('wss://pubsub-edge.twitch.tv');
+  }, 5000);
 }
 
 function initialize(obj) {
-  console.log("Initializing widget...");
+  console.log("[VIDEO PLAYER] - Initializing widget...");
   
   let fieldData = obj.detail.fieldData;
   let channel = obj.detail.channel
@@ -62,26 +63,25 @@ function initialize(obj) {
   /* GLOBAL SETTINGS */
   global.channel.oauth = fieldData.oauth;
   global.intervals.queue = fieldData.queue_refresh;
-  global.volume = fieldData.volume;
   
   // Get any/all redemption names and videos
   let redemptions = Object.getOwnPropertyNames(fieldData).filter(r => r.includes('redemption_name_'));
   for (let i = 0; i < redemptions.length; i++) {
     let name = fieldData[redemptions[i]]; // Name of redemption
-    let video = fieldData[redemptions[i].replace('name', 'video')]; // Video for redemption
     
     // If we have a valid name and video source for the redemption
-    if (name && video) {
-      global.redemptions[name.toUpperCase()] = video;
+    if (name) {
+      global.redemptions[name.toUpperCase()] = {
+        "file": fieldData[redemptions[i].replace('name', 'video')],
+        "volume": fieldData[redemptions[i].replace('name', 'volume')] / 100
+      }
     }
   }
-  
-  console.log(global.redemptions);
 }
 
 window.addEventListener('onWidgetLoad', function(obj) { 
   // Code goes here
-  console.log("Widget has loaded! Noice!");
+  console.log("[VIDEO PLAYER] - Widget has loaded! Noice!");
   console.log(obj);
   
   initialize(obj);
@@ -89,7 +89,7 @@ window.addEventListener('onWidgetLoad', function(obj) {
 });
 
 function openWebSocket(url) {
-  console.log("Opening web socket for URL: " + url);
+  console.log("[VIDEO PLAYER] - Opening web socket for URL: " + url);
   
   // Set up the web socket
   webSocket = new WebSocket(url);
@@ -101,7 +101,7 @@ function openWebSocket(url) {
 
 /* TIMER EVENT METHODS */
 function onPingCheck() {
-  console.log("Checking if PING required");
+  console.log("[VIDEO PLAYER] - Checking if PING required");
   
   let now = new Date(); // Right now
   let nextPing = new Date(state.last_comm); // When we need to send the next ping by
@@ -109,7 +109,7 @@ function onPingCheck() {
   
   // If it's past when we needed to check for a ping
   if (now > nextPing) {
-    console.log("PING Required! Pinging server...");
+    console.log("[VIDEO PLAYER] - PING Required! Pinging server...");
     
     // Send a PING to the server
     webSocket.send(JSON.stringify({ 'type': "PING" }));
@@ -120,7 +120,7 @@ function onPingCheck() {
 }
 
 function onPongCheck() {
-  console.log("Checking if PONG or MESSAGE received");
+  console.log("[VIDEO PLAYER] - Checking if PONG or MESSAGE received");
   
   let now = new Date(); // Right now
   let pongBy = new Date(state.last_comm); // When we needed to hear from the server by
@@ -128,7 +128,7 @@ function onPongCheck() {
   
   // If it's been a while since we heard from the server
   if (now > pongBy) {
-    console.log("Server inactive. Disconnecting...");
+    console.log("[VIDEO PLAYER] - Server inactive. Disconnecting...");
     
     // Force a disconnect
     webSocket.close();
@@ -136,24 +136,24 @@ function onPongCheck() {
 }
 
 function onQueueCheck() {
-  console.log("Checking queue...");
-  
   // Check to see if we're ready to play a video and if there is an item in the queue
   if (!state.video_playing && state.queue.length > 0) {
-    console.log("Playing video!");
-    
     // Grab the video source from queue and pass it to video player
-    let video = state.queue.shift();
-    videoPlayer.setAttribute('src', video);
-    
-    // Set video playing as true
-    state.video_playing = true;
+    let event = state.queue.shift();
+    if (event.file) {
+      console.log("[VIDEO PLAYER] - Playing video!");
+      videoPlayer.setAttribute('src', event.file);
+      videoPlayer.volume = event.volume;
+      
+      // Set video playing as true
+      state.video_playing = true;
+    }
   }
 }
 
 /* VIDEO PLAYER EVENT METHODS */
 function onVideoCanPlayThrough() {
-  console.log("Video is ready to play!");
+  console.log("[VIDEO PLAYER] - Video is ready to play!");
   
   // Play video
   $(videoPlayer).css({ 'opacity': 1.0 });
@@ -161,7 +161,7 @@ function onVideoCanPlayThrough() {
 }
 
 function onVideoEnded() {
-  console.log("Video has ended!");
+  console.log("[VIDEO PLAYER] - Video has ended!");
   
   // Reset the video source
   videoPlayer.setAttribute('src', "");
@@ -175,28 +175,28 @@ function onVideoEnded() {
 
 /* WEBSOCKET EVENT METHODS */
 function onWebSocketClosed(obj) {
-  console.log("Websocket closed!");
+  console.log("[VIDEO PLAYER] - Websocket closed!");
   
   // Clear existing timers
   clearInterval(state.timers.ping);
   clearTimeout(state.timers.pong);
   clearInterval(state.timers.queue);
   
-  console.log("Retrying connection to server in " + global.intervals.retry + "s");
+  console.log("[VIDEO PLAYER] - Retrying connection to server in " + global.intervals.retry + "s");
   
   // Set timer to retry connection
   state.timers.retry = setInterval(openWebSocket, global.intervals.retry * 1000, 'wss://pubsub-edge.twitch.tv');
 }
 
 function onWebSocketError(obj) {
-  console.log("Error in WebSocket!");
+  console.log("[VIDEO PLAYER] - Error in WebSocket!");
   
   // Force closed the web socket
   webSocket.close();
 }
 
 function onWebSocketMessage(obj) {
-  console.log("Message received from Web Socket!");
+  console.log("[VIDEO PLAYER] - Message received from Web Socket!");
   
   let response = JSON.parse(obj.data);
   
@@ -206,26 +206,31 @@ function onWebSocketMessage(obj) {
     if (response.type == "MESSAGE") {
       let message = JSON.parse(response.data.message);
       
-      console.log("Event type: " + message.type);
+      console.log("[VIDEO PLAYER] - Event type: " + message.type);
       
       // If the message we have received is a channel points redemption
       if (message.type == "reward-redeemed") {
         let redemption = message.data.redemption;
         let title = redemption.reward.title.toUpperCase();
         
-        console.log("Reward Name: " + title);
+        console.log("[VIDEO PLAYER] - Reward Name: " + title);
         
         // If it is a valid redemption and matches our list to play videos for
         if (global.redemptions[title] && redemption.status == "UNFULFILLED") {
-          console.log("Valid redemption!");
+          console.log("[VIDEO PLAYER] - Valid redemption!");
+          
+          let event = {
+            "file": global.redemptions[title].file,
+            "volume": global.redemptions[title].volume
+          }
           
           // Add the video source to the queue
-          state.queue.push(global.redemptions[title]);
+          state.queue.push(event);
         }
       }
     }
     else if (response.type == "RECONNECT") {
-      console.log("Server requests reconnect...");
+      console.log("[VIDEO PLAYER] - Server requests reconnect...");
       
       // Force a disconnect
       webSocket.close();
@@ -239,7 +244,7 @@ function onWebSocketMessage(obj) {
     state.last_comm = new Date();
   }
   else {
-    console.log("Error message: " + error.message);
+    console.log("[VIDEO PLAYER] - Error message: " + response.error.message);
     
     // Force a disconnect
     webSocket.close();
@@ -247,7 +252,7 @@ function onWebSocketMessage(obj) {
 }
 
 function onWebSocketOpen(obj) {
-  console.log("Web Socket open!");
+  console.log("[VIDEO PLAYER] - Web Socket open!");
   
   // Clear retry timer
   clearInterval(state.timers.retry);
@@ -264,7 +269,7 @@ function onWebSocketOpen(obj) {
     }
   }
   
-  console.log("Sending listen request...");
+  console.log("[VIDEO PLAYER] - Sending listen request...");
   
   // Send the listen request
   webSocket.send(JSON.stringify(data));
