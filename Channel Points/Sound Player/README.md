@@ -39,6 +39,8 @@ By default, you can set up to *ten* different sound-effect channel point rewards
 
 **Redemption Sound** - The audio file to play.
 
+**Redemption Volume** - The volume this sound should play at.
+
 ## HOW TO: ADD MORE REDEMPTIONS
 By default I've allowed for up to 10 redemptions. If you need more, follow these instructions:
 
