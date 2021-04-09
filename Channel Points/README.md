@@ -1,12 +1,28 @@
-# HOW TO: ADD TO YOUR OVERLAY
-To use these Widgets please do the following:
+# CHANNEL POINTS WIDGETS
+This section contains widgets that will interact with your channel point redemptions!
 
-1. Go to the Overlay you would like to use in your StreamElements account
-2. In the bottom left click '+' -> 'Static/Custom' -> 'Custom Widget'
-3. Click the new Widget and go to 'Settings' -> 'Open Editor' in the left-hand bar
-4. Replace ALL text in the HTML tab with the .html file
-5. Replace ALL text in the CSS tab with the .css file
-6. Replace ALL text in the JS tab with the .js file
-7. Replace ALL text in the FIELDS tab with the .json file
-8. Click 'DONE' in the bottom-right.
-9. Use the left-hand bar 'Settings' to customise the widget to your own needs.
+**NOTE:** Instructions for how to add each widget to your StreamElements overlays are included in the *README.md* file of each branch.
+
+## Auto-Timeout
+Will automatically time-out users in chat for a specified length of time when a channel point reward is redeemed. This has two functions:
+
+**Timeout Self** - The user that redeemed the rewards will be timed out.
+
+**Timeout Other** - The user that redeemed the reward can specify another user to be timed out (except the Broadcaster and Moderators).
+
+## Slash-Bot
+Will automatically perform some Twitch Chat /commands when a channel point reward is redeemed. This has four functions, including the timeout function from the **Auto-Timeout** widget.
+
+**Commercial** - Set up to three different advert lengths that will automatically be played.
+
+**Emote-Only Chat** - Turn on emote-only chat for a specified length of time.
+
+**Timeout Self** - The user that redeemed the rewards will be timed out.
+
+**Timeout Other** - The user that redeemed the reward can specify another user to be timed out (except the Broadcaster and Moderators).
+
+## Sound Player
+Will play a sound effect when users redeem channel point rewards.
+
+## Video Player
+Will display a video when users redeem channel point rewards.
