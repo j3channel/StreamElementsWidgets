@@ -1,5 +1,5 @@
 # Slash-Bot
-A widget that will automatically perform */commands* when Channel Point Rewards are redeemed.
+A widget that will automatically perform Twitch Chat */commands* when Channel Point Rewards are redeemed.
 
 **Commercials** - Run a 30/60/90/120/150/180 second advert on your channel. You can have up to *three* different advert channel point rewards. *E.G One for 30s, one for 60s and one for 90s.*
 
