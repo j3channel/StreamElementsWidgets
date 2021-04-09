@@ -67,9 +67,9 @@ This will start - or continue, if already in - emote-only mode in your channel's
 
 **Duration** - Length (in seconds) to enable Emote-Only chat for.
 
-**Response if Extended** - Response to write in chat when the emote-only mode is already enabled and is extended.
+**Extended Response** - Response to write in chat when the emote-only mode is already enabled and is extended.
 
-**Response if Started** - Response to write in chat when emote-only mode is started.
+**Started Response** - Response to write in chat when emote-only mode is started.
 
 ### Timeout Self
 This will time out the user that redeemed the channel point reward. As per Twitch's functionality, this will be unable to time out other moderators.
