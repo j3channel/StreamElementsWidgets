@@ -57,3 +57,47 @@ This widget can be customised to suit your stream. To do this, click on this wid
 
 ## HOW TO: ADD MORE TRIGGERS AND REPLIES
 By default, you can add up to **five** triggers and replies. If you need more, you can add them by following these instructions:
+
+1. Copy the code inside the *add_trigger.json* file in this repository.
+2. In your StreamElements overlay, click this widget and click **Settings** in the left-hand menu.
+3. Click **Open Editor** and navigate to the **Fields** tab.
+4. Scroll down until you find the last node containing **phrase_** and paste the code directly underneath it. *(See below)*
+
+```json
+"trigger_4": {
+  "type": "text",
+  "label": "Trigger",
+  "value": "",
+  "group": "Sequence"
+},
+"phrase_4": {
+  "type": "text",
+  "label": "Reply (Variables: {user})",
+  "value": "",
+  "group": "Sequence"
+},
+/* ***** PASTE CODE HERE ***** */
+"trigger_X": {
+  "type": "text",
+  "label": "Trigger",
+  "value": "",
+  "group": "Sequence"
+},
+"phrase_X": {
+  "type": "text",
+  "label": "Reply (Variables: {user})",
+  "value": "",
+  "group": "Sequence"
+},
+/* ***** END OF PASTED CODE ***** */
+"sound": {
+  "type": "sound-input",
+  "label": "End Sound",
+  "value": "",
+  "group": "Sequence"
+},
+```
+
+5. Replace the *'X'* of **both** new nodes with the next number in the sequence. *E.g. The last number in the sequence in the example above is **4** so we will change the names of our pasted code to **trigger_5** and **phrase_5**.*
+6. Click **Done** and you should see another slot become available in **Settings** -> **Sequence** drop-down in the left-hand menu.
+7. You can do this as many times as you need to add additional triggers and replies!
