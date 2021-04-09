@@ -3,14 +3,6 @@ A widget that will play a sound-effect when a user redeems a Channel Point rewar
 
 Full instructions to add the widget to your overlay, connect it to Twitch and set up the redemptions are below.
 
-**Commercials** - Run a 30/60/90/120/150/180 second advert on your channel. You can have up to *three* different advert channel point rewards. *E.g One for 30s, one for 60s and one for 90s.*
-
-**Emote-Only Chat** - Will turn on Emote-Only Chat mode for a specified length of time before turning it back off again. If this is redeemed while the timer is already running, extra time will be added to the current emote-only chat mode.
-
-**Timeout Self** - Will time out the user that redeemed the reward for a specified amount of time.
-
-**Timeout Other** - Will time out a user of the redeemer's choice *(excluding the broadcaster)* for a specified amount of time.
-
 ## HOW TO: ADD THE WIDGET TO YOUR OVERLAY
 To add this widget to your overlay, follow these steps:
 
@@ -50,9 +42,46 @@ By default, you can set up to *ten* different sound-effect channel point rewards
 ## HOW TO: ADD MORE REDEMPTIONS
 By default I've allowed for up to 10 redemptions. If you need more, follow these instructions:
 
-1. Go to *Settings -> Open Editor -> FIELDS* of the widget in StreamElements.
-2. Copy the contents of the *add_redemption.json* file.
-3. Paste it directly after the last 'redemption_audio_' node in the *FIELDS* tab.
-4. Replace the 'X' in *both* node names with the next number. (E.g. replace X with 11 if the last number in the list is 10)
-5. Click 'DONE'.
-6. Check your *Settings -> Redemptions* section and a new slot should be available.
+1. Copy the contents of the *add_redemption.json* file in this repository.
+2. In your StreamElements overlay, click on this widget and click **Settings** in the left-hand menu.
+3. Click on **Open Editor** and navigate to the **Fields** tab.
+4. Scroll down to the very last node that contains **redemption_audio_** and paste the code directly after it. *(See below)*
+
+```json
+"redemption_name_10": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_10": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  /* ***** PASTE CODE HERE ***** */
+  "redemption_name_X": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_video_X": {
+    "type": "video-input",
+    "label": "Redemption Video",
+    "value": "",
+    "group": "Redemptions"
+  },
+  /* ***** END OF PASTED CODE ***** */
+  "queue_refresh": {
+    "type": "number",
+    "label": "Refresh Rate (Seconds)",
+    "value": 1,
+    "group": "Queue"
+  },
+```
+
+5. Replace the *'X'* in **both** new node names with the next number in the sequence. *E.g. The last number in the code sample above is '10' so we will change the names to **redemption_name_11** and **redemption_video_11**.*
+6. Click **Done** and you should see another slot become available in the **Settings** -> **Redemptions** drop-down in the left-hand menu.
+7. You can do this for as many times as you need to add additional sounds!
