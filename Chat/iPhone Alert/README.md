@@ -17,47 +17,47 @@ To add this widget to your overlay, follow these steps:
 11. Click *Done* in the bottom-right.
 
 ## HOW TO: CUSTOMISE THE WIDGET
-This widget can be customised to suit your stream. To do this, click on this widget in your StreamElements Overlay, click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
+This widget can be customised to suit your stream. To do this, click on this widget in your StreamElements Overlay, click **Settings** in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
 
 ### App
-*Name* - The 'application name' displayed in the header of the notification.
+**Name** - The 'application name' displayed in the header of the notification.
 
-*Icon* - The icon displayed in the header of the notification.
+**Icon** - The icon displayed in the header of the notification.
 
-*Alert* - The sound that will be played when the notification is displayed. (Can be left blank if no audio required)
+**Alert** - The sound that will be played when the notification is displayed. (Can be left blank if no audio required)
 
-*Volume* - The volume for the alert sound.
+**Volume** - The volume for the alert sound.
 
-*Corner Radius* - The roundness of the notification's corners.
+**Corner Radius** - The roundness (in pixels) of the notification's corners.
 
-*Top Margin* - The gap (in pixels) that is left above the notification.
+**Top Margin** - The gap (in pixels) that is left above the notification.
 
 ### Header
-*Background Colour* - Background colour for the notification header.
+**Background Colour** - Background colour for the notification header.
 
-*Text Colour* - Text colour for the notification header.
+**Text Colour** - Text colour for the notification header.
 
-*Font* - Font to use for the notification header text.
+**Font** - Font to use for the notification header text.
 
-*Font Size* - Font size to use for the notification header text.
+**Font Size** - Font size to use for the notification header text.
 
-*Height* - Overall height of the header section.
+**Height** - Overall height of the header section.
 
 ### Body
-*Background Colour* - Background colour for the notification body.
+**Background Colour** - Background colour for the notification body.
 
-*Text Colour* - Text colour for the notification body.
+**Text Colour** - Text colour for the notification body.
 
-*Font* - Font to use for the notification body text.
+**Font** - Font to use for the notification body text.
 
-*Font Size* - Font size to use for the notification body text.
+**Font Size** - Font size to use for the notification body text.
 
 ### Messages
-*Ignore Usernames* - List of usernames to ignore so messages are **not** displayed. (Used mostly to ignore chatbots).
+**Ignore Usernames** - List of usernames to ignore so messages are **not** displayed. *(Used mostly to ignore chatbots such as StreamElements, NightBot and StreamLabs).*
 
-*Message Duration* - How long to display the notification for (in seconds).
+**Message Duration** - How long (in seconds) to display the notification for.
 
-*Maximum Message Lines* - The maximum amount of lines to display for a message before trimming with an ellipsis ("..."). This is to prevent very long chat messages taking up a lot of space.
+**Maximum Message Lines** - The maximum amount of lines to display for a message before trimming with an ellipsis ("..."). This is to prevent very long chat messages taking up a lot of space.
 
 ## SIZING
 This widget will automatically stretch to fill the *width* of the widget's outline in the overlay, but will **not** stretch to fill the *height* as message-lengths can vary (longer messages will fill more vertical space!). I recommend setting the height of the widget to the same height as your entire overlay to ensure the widget doesn't get cut off.
