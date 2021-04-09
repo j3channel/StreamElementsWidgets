@@ -3,7 +3,7 @@
     "type": "text",
     "label": "Channel Points Name",
     "value": "Run a 30s Ad",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_length_0": {
     "type": "dropdown",
@@ -17,19 +17,19 @@
       "180": "180 Seconds"
     },
     "value": "30",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_response_0": {
     "type": "text",
     "label": "Response (Variables: {user} {duration})",
     "value": "{user} ran a {duration}-second advert!",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_reward_1": {
     "type": "text",
     "label": "Channel Points Name",
     "value": "Run a 60s Ad",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_length_1": {
     "type": "dropdown",
@@ -43,19 +43,19 @@
       "180": "180 Seconds"
     },
     "value": "60",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_response_1": {
     "type": "text",
     "label": "Response (Variables: {user} {duration})",
     "value": "{user} ran a {duration}-second advert!",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_reward_2": {
     "type": "text",
     "label": "Channel Points Name",
     "value": "Run a 90s Ad",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_length_2": {
     "type": "dropdown",
@@ -69,13 +69,13 @@
       "180": "180 Seconds"
     },
     "value": "90",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "advert_response_2": {
     "type": "text",
     "label": "Response (Variables: {user} {duration})",
     "value": "{user} ran a {duration}-second advert!",
-    "group": "Adverts"
+    "group": "Commercials"
   },
   "emote_only_reward": {
     "type": "text",
