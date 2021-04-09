@@ -6,9 +6,9 @@ We've created some Widgets that you can integrate with your own StreamElements o
 ## Channel Points
 Widgets that can be integrated with Twitch Channel Points.
 
-**Auto-Timeout** - Allow users to timeout themselves and/or others when a channel point reward is redeemed.
+**Auto-Timeout** - Automatically trigger the Twitch Chat /timeout command when a user redeems a channel point reward. This can time out the redeemer or a user that the redeemer chooses.
 
-**Slash-Bot** - Automatically trigger Twitch Chat commands (/commercial, /emote-only, /timeout) when a channel point reward is redeemed.
+**Slash-Bot** - Automatically trigger Twitch Chat commands (/commercial, /emote-only, /timeout) when a channel point reward is redeemed. (Includes all **Auto-Timeout** functionality).
 
 **Sound Player** - Play sounds when channel points are redeemed.
 
