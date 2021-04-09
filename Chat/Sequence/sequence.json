@@ -73,7 +73,7 @@
   },
   "phrase_4": {
     "type": "text",
-    "label": "Reply 5 (Variables: {user})",
+    "label": "Reply (Variables: {user})",
     "value": "",
     "group": "Sequence"
   },
