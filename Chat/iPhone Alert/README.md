@@ -1,7 +1,7 @@
 # iPhone Alert
 This widget displays an iPhone message alert notification when a user types a message into chat for the first time.
 
-## HOW TO ADD TO YOUR OVERLAY
+## HOW TO: ADD THIS WIDGET TO YOUR OVERLAY
 To add this widget to your overlay, follow these steps:
 
 1. Go to StreamElements, sign in and go to *My Overlays* in the left-hand menu.
@@ -16,12 +16,7 @@ To add this widget to your overlay, follow these steps:
 10. Delete *all* of the code inside the **Data** tab.
 11. Click *Done* in the bottom-right.
 
-## SIZE 
-This widget will automatically stretch to fill the *width* of the widget's outline in the overlay, but will **not** stretch to fill the *height* as message-lengths can vary (longer messages will fill more vertical space!). I recommend setting the height of the widget to the same height as your entire overlay to ensure the widget doesn't get cut off.
-
-You can change the widget's width and height by clicking on the Widget in your StreamElements overlay and selecting **Position, size and style** in the left-hand menu.
-
-## SETTINGS
+## HOW TO: CUSTOMISE THE WIDGET
 This widget can be customised to suit your stream. To do this, click on this widget in your StreamElements Overlay, click *Settings* in the left-hand menu and browse the drop-down menus. In case you are unsure what any of the settings do, here is a glossary:
 
 ### App
@@ -63,5 +58,10 @@ This widget can be customised to suit your stream. To do this, click on this wid
 *Message Duration* - How long to display the notification for (in seconds).
 
 *Maximum Message Lines* - The maximum amount of lines to display for a message before trimming with an ellipsis ("..."). This is to prevent very long chat messages taking up a lot of space.
+
+## SIZING
+This widget will automatically stretch to fill the *width* of the widget's outline in the overlay, but will **not** stretch to fill the *height* as message-lengths can vary (longer messages will fill more vertical space!). I recommend setting the height of the widget to the same height as your entire overlay to ensure the widget doesn't get cut off.
+
+You can change the widget's width and height by clicking on the Widget in your StreamElements overlay and selecting **Position, size and style** in the left-hand menu.
 
 
