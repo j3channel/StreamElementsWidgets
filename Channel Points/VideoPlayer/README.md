@@ -45,44 +45,62 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
 1. Copy the contents of the *add_redemption.json* file in this repository.
 2. In your StreamElements overlay, click on this widget and click **Settings** in the left-hand menu.
 3. Click on **Open Editor** and navigate to the **Fields** tab.
-4. Scroll down to the very last node that contains **redemption_audio_** and paste the code directly after it. *(See below)*
+4. Scroll down to the very last node that contains **redemption_video_** and paste the code directly after it. *(See below)*
 
 ```json
 "redemption_name_10": {
-    "type": "text",
-    "label": "Redemption Name",
-    "value": "",
-    "group": "Redemptions"
-  },
-  "redemption_video_10": {
-    "type": "video-input",
-    "label": "Redemption Video",
-    "value": "",
-    "group": "Redemptions"
-  },
-  /* ***** PASTE CODE HERE ***** */
-  "redemption_name_X": {
-    "type": "text",
-    "label": "Redemption Name",
-    "value": "",
-    "group": "Redemptions"
-  },
-  "redemption_video_X": {
-    "type": "video-input",
-    "label": "Redemption Video",
-    "value": "",
-    "group": "Redemptions"
-  },
+  "type": "text",
+  "label": "Redemption Name",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_video_10": {
+  "type": "video-input",
+  "label": "Redemption Video",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_volume_10": {
+  "type": "slider",
+  "label": "Redemption Volume",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "value": 75,
+  "group": "Redemptions"
+},
+/* ***** PASTE CODE HERE ***** */
+"redemption_name_X": {
+  "type": "text",
+  "label": "Redemption Name",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_video_X": {
+  "type": "video-input",
+  "label": "Redemption Video",
+  "value": "",
+  "group": "Redemptions"
+},
+"redemption_volume_X": {
+  "type": "slider",
+  "label": "Redemption Volume",
+  "min": 0,
+  "max": 100,
+  "step": 1,
+  "value": 75,
+  "group": "Redemptions"
+},
   /* ***** END OF PASTED CODE ***** */
-  "queue_refresh": {
-    "type": "number",
-    "label": "Refresh Rate (Seconds)",
-    "value": 1,
-    "group": "Queue"
-  },
+"queue_refresh": {
+  "type": "number",
+  "label": "Refresh Rate (Seconds)",
+  "value": 1,
+  "group": "Queue"
+},
 ```
 
-5. Replace the *'X'* in **both** new node names with the next number in the sequence. *E.g. The last number in the code sample above is '10' so we will change the names to **redemption_name_11** and **redemption_video_11**.*
+5. Replace the *'X'* in **both** new node names with the next number in the sequence. *E.g. The last number in the code sample above is '10' so we will change the names to **redemption_name_11**, **redemption_video_11** and **redemption_volume_11**.*
 6. Click **Done** and you should see another slot become available in the **Settings** -> **Redemptions** drop-down in the left-hand menu.
 7. You can do this for as many times as you need to add additional sounds!
 
