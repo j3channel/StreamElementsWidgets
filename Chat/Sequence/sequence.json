@@ -2,7 +2,7 @@
   "bot_connected": {
     "type": "text",
     "label": "Connected Message",
-    "value": "",
+    "value": "Sequence Bot Connected!",
     "group": "Bot"
   },
   "bot_name": {
@@ -92,7 +92,7 @@
   "cooldown_end": {
     "type": "text",
     "label": "Cooldown End Message",
-    "value": "",
+    "value": "Sequence is ready!",
     "group": "Settings"
   },
   "volume": {
