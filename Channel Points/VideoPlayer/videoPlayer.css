@@ -3,5 +3,7 @@ body {
 }
 
 video {
+  height: 100%;
   opacity: 0;
+  width: 100%;
 }
