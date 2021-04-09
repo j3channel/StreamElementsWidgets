@@ -1,0 +1,12 @@
+"trigger_X": {
+  "type": "text",
+  "label": "Trigger",
+  "value": "",
+  "group": "Sequence"
+},
+"phrase_X": {
+  "type": "text",
+  "label": "Reply (Variables: {user})",
+  "value": "",
+  "group": "Sequence"
+},
