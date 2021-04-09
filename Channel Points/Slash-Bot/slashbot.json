@@ -1,0 +1,193 @@
+{
+  "advert_reward_0": {
+    "type": "text",
+    "label": "Channel Points Name",
+    "value": "Run a 30s Ad",
+    "group": "Adverts"
+  },
+  "advert_length_0": {
+    "type": "dropdown",
+    "label": "Advert Length",
+    "options": {
+      "30": "30 Seconds",
+      "60": "60 Seconds",
+      "90": "90 Seconds",
+      "120": "120 Seconds",
+      "150": "150 Seconds",
+      "180": "180 Seconds"
+    },
+    "value": "30",
+    "group": "Adverts"
+  },
+  "advert_response_0": {
+    "type": "text",
+    "label": "Response (Variables: {user} {duration})",
+    "value": "{user} ran a {duration}-second advert!",
+    "group": "Adverts"
+  },
+  "advert_reward_1": {
+    "type": "text",
+    "label": "Channel Points Name",
+    "value": "Run a 60s Ad",
+    "group": "Adverts"
+  },
+  "advert_length_1": {
+    "type": "dropdown",
+    "label": "Advert Length",
+    "options": {
+      "30": "30 Seconds",
+      "60": "60 Seconds",
+      "90": "90 Seconds",
+      "120": "120 Seconds",
+      "150": "150 Seconds",
+      "180": "180 Seconds"
+    },
+    "value": "60",
+    "group": "Adverts"
+  },
+  "advert_response_1": {
+    "type": "text",
+    "label": "Response (Variables: {user} {duration})",
+    "value": "{user} ran a {duration}-second advert!",
+    "group": "Adverts"
+  },
+  "advert_reward_2": {
+    "type": "text",
+    "label": "Channel Points Name",
+    "value": "Run a 90s Ad",
+    "group": "Adverts"
+  },
+  "advert_length_2": {
+    "type": "dropdown",
+    "label": "Advert Length",
+    "options": {
+      "30": "30 Seconds",
+      "60": "60 Seconds",
+      "90": "90 Seconds",
+      "120": "120 Seconds",
+      "150": "150 Seconds",
+      "180": "180 Seconds"
+    },
+    "value": "90",
+    "group": "Adverts"
+  },
+  "advert_response_2": {
+    "type": "text",
+    "label": "Response (Variables: {user} {duration})",
+    "value": "{user} ran a {duration}-second advert!",
+    "group": "Adverts"
+  },
+  "emote_only_reward": {
+    "type": "text",
+    "label": "Channel Points Name",
+    "value": "Emote-Only Chat",
+    "group": "Emote-Only Chat"
+  },
+  "emote_only_duration": {
+    "type": "number",
+    "label": "Duration (Seconds)",
+    "value": 60,
+    "group": "Emote-Only Chat"
+  },
+  "emote_only_response_continued": {
+    "type": "text",
+    "label": "Response if Continued",
+    "value": "{user} extended emote-only chat by {duration}s!",
+    "group": "Emote-Only Chat"
+  },
+  "emote_only_response_started": {
+    "type": "text",
+    "label": "Response if Started",
+    "value": "{user} started emote-only chat for {duration}s!",
+    "group": "Emote-Only Chat"
+  },
+  "timeout_self_name": {
+    "type": "text",
+    "label": "Name",
+    "value": "Time Yourself Out",
+    "group": "Timeout Self"
+  },
+  "timeout_self_response": {
+    "type": "text",
+    "label": "Response (Variables {user})",
+    "value": "{user} has been timed out!",
+    "group": "Timeout Self"
+  },
+  "timeout_self_duration": {
+    "type": "number",
+    "label": "Duration (seconds)",
+    "value": 60,
+    "group": "Timeout Self"
+  },
+  "timeout_self_sound": {
+    "type": "sound-input", 
+    "label": "Sound",
+    "value": "",
+    "group": "Timeout Self"
+  },
+  "timeout_other_name": {
+    "type": "text",
+    "label": "Name",
+    "value": "Timeout Someone",
+    "group": "Timeout Other"
+  },
+  "timeout_other_response": {
+    "type": "text",
+    "label": "Response (Variables {user} and {target})",
+    "value": "{user} has timed out {target}!",
+    "group": "Timeout Other"
+  },
+  "timeout_other_duration": {
+    "type": "number",
+    "label": "Duration (seconds)",
+    "value": 60,
+    "group": "Timeout Other"
+  },
+  "timeout_other_sound": {
+    "type": "sound-input", 
+    "label": "Sound",
+    "value": "",
+    "group": "Timeout Other"
+  },
+  "chat_name": {
+    "type": "text",
+    "label": "Chatbot Name",
+    "value": "",
+    "group": "Settings"
+  },
+  "chat_connected": {
+    "type": "text",
+    "label": "Chatbot Connected Message",
+    "value": "Slash-Bot Connected!",
+    "group": "Settings"
+  },
+  "chat_oauth": {
+    "type": "text",
+    "label": "Chatbot OAuth Token",
+    "value": "",
+    "group": "Settings"
+  },
+  "redemptions_oauth": {
+    "type": "text",
+    "label": "Redemptions OAuth Token",
+    "value": "",
+    "group": "Settings"
+  },
+  "volume": {
+    "type": "slider",
+    "label": "Sound Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Settings"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Slash-Bot v1"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "J3Channel"
+  }
+}
