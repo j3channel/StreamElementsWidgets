@@ -54,10 +54,19 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
     "value": "",
     "group": "Redemptions"
   },
-  "redemption_sound_10": {
+  "redemption_audio_10": {
     "type": "sound-input",
     "label": "Redemption Sound",
     "value": "",
+    "group": "Redemptions"
+  },
+  "redemption_volume_10": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
     "group": "Redemptions"
   },
   /* ***** PASTE CODE HERE ***** */
@@ -73,6 +82,15 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
     "value": "",
     "group": "Redemptions"
   },
+  "redemption_volume_X": {
+    "type": "slider",
+    "label": "Redemption Volume",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "value": 75,
+    "group": "Redemptions"
+  },
   /* ***** END OF PASTED CODE ***** */
   "queue_refresh": {
     "type": "number",
@@ -82,6 +100,6 @@ By default I've allowed for up to 10 redemptions. If you need more, follow these
   },
 ```
 
-5. Replace the *'X'* in **both** new node names with the next number in the sequence. *E.g. The last number in the code sample above is **10** so we will change the names of our pasted code to **redemption_name_11** and **redemption_video_11**.*
+5. Replace the *'X'* in **both** new node names with the next number in the sequence. *E.g. The last number in the code sample above is **10** so we will change the names of our pasted code to **redemption_name_11**, **redemption_audio_11** and **redemption_volume_11**.*
 6. Click **Done** and you should see another slot become available in the **Settings** -> **Redemptions** drop-down in the left-hand menu.
 7. You can do this for as many times as you need to add additional sounds!
