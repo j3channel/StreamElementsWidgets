@@ -17,8 +17,8 @@ To add this widget to your overlay, follow these steps:
 5. Click *Open Editor*
 6. Delete *all* of the code in the **HTML** tab.
 7. Delete *all* of the code in the **CSS** tab.
-8. Replace *all* of the code in the **JS** tab with the code inside the *iphone.js* file in this repository.
-9. Replace *all* of the code in the **Fields** tab with the code inside the *iphone.json* file in this repository.
+8. Replace *all* of the code in the **JS** tab with the code inside the *autoTimeout.js* file in this repository.
+9. Replace *all* of the code in the **Fields** tab with the code inside the *autoTimeout.json* file in this repository.
 10. Delete *all* of the code inside the **Data** tab.
 11. Click *Done* in the bottom-right.
 
