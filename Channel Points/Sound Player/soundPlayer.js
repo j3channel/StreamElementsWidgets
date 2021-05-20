@@ -35,6 +35,7 @@ function start() {
   audioPlayer = document.createElement('audio');
   audioPlayer.oncanplaythrough = onAudioCanPlayThrough;
   audioPlayer.onended = onAudioEnded;
+  audioPlayer.onerror = onAudioError;
   audioPlayer.setAttribute('autoplay', false);
   
   // Add the audio player to the DOM
@@ -77,6 +78,9 @@ function initialize(obj) {
       }
     }
   }
+  
+  console.log(`[SOUND PLAYER] - Sound Effects:`);
+  console.log(global.redemptions);
 }
 
 window.addEventListener('onWidgetLoad', function(obj) { 
@@ -162,8 +166,12 @@ function onAudioCanPlayThrough() {
 function onAudioEnded() {
   console.log("[SOUND PLAYER] - Audio has ended!");
   
-  // Reset the audio source
-  audioPlayer.setAttribute('src', "");
+  // Set status as no longer playing
+  state.audio_playing = false;
+}
+
+function onAudioError() {
+  console.log("[SOUND PLAYER] - Audio error!");
   
   // Set status as no longer playing
   state.audio_playing = false;
