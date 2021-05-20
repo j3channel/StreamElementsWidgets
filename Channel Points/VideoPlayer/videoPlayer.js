@@ -35,6 +35,7 @@ function start() {
   videoPlayer = document.createElement('video');
   videoPlayer.oncanplaythrough = onVideoCanPlayThrough;
   videoPlayer.onended = onVideoEnded;
+  videoPlayer.onerror = onVideoError;
   videoPlayer.setAttribute('autoplay', false);
   
   // Add the video player to the DOM
@@ -77,6 +78,9 @@ function initialize(obj) {
       }
     }
   }
+  
+  console.log("[VIDEO PLAYER] - Videos:");
+  console.log(global.redemptions);
 }
 
 window.addEventListener('onWidgetLoad', function(obj) { 
@@ -163,8 +167,15 @@ function onVideoCanPlayThrough() {
 function onVideoEnded() {
   console.log("[VIDEO PLAYER] - Video has ended!");
   
-  // Reset the video source
-  videoPlayer.setAttribute('src', "");
+  // Signal that we are ready for the next video
+  $(videoPlayer).css({ 'opacity': 0.0 });
+  
+  // Set status as no longer playing
+  state.video_playing = false;
+}
+
+function onVideoError() {
+  console.log("[VIDEO PLAYER] - Video error!");
   
   // Signal that we are ready for the next video
   $(videoPlayer).css({ 'opacity': 0.0 });
