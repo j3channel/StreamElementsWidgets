@@ -1,0 +1,46 @@
+{
+  "chat_username": {
+    "type": "text",
+    "label": "Chat Bot Username",
+    "value": "",
+    "group": "Chat"
+  },
+  "chat_token": {
+    "type": "text",
+    "label": "OAuth Token",
+    "value": "",
+    "group": "Chat"
+  },
+  "chat_response": {
+    "type": "text",
+    "label": "Chat Response {user} {item}",
+    "value": "{user} redeemed item: {item}",
+    "group": "Chat"
+  },
+  "items": {
+    "type": "text",
+    "label": "Items (Comma Separated)",
+    "value": "One,Two,Three,Four,Five",
+    "group": "Items"
+  },
+  "redemptions_token": {
+    "type": "text",
+    "label": "OAuth Token",
+    "value": "",
+    "group": "Channel Points"
+  },
+  "redemptions_name": {
+    "type": "text",
+    "label": "Redemption Name",
+    "value": "",
+    "group": "Channel Points"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "TheJ3Boys"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Shuffler v1"
+  }
+}
