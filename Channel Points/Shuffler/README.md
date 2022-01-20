@@ -47,7 +47,7 @@ Click on the widget in your StreamElements overlay and click the **Channel Point
 
 ### Items
 
-**Items** - A comma-separated list of the items to include. For example: One,Two,Three,Four,Five,Six
+**Items** - A comma-separated list of the items to include. *Example: One,Two,Three,Four,Five,Six*
 
 ### Channel Points
 
