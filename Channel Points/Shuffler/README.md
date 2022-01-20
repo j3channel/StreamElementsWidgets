@@ -43,7 +43,7 @@ This widget will need to use a Twitch Bot account that can be granted access to 
 Click on the widget in your StreamElements overlay and click the **Channel Points** option in the left-hand menu. This will display a list of settings below to help customise which redemptions to listen out for and what they will do.
 
 ### Chat
-**Response** - The text response to be posted to chat when the reward has been redeemed. Use *{user}* and *{item}* in your message to insert the username of the redeemer and the selected item.
+**Response** - The text response to be posted to chat when the reward has been redeemed. Use *{user}* and *{item}* in your message to insert the username of the redeemer and the selected item. *Example: {user} has redeemed item: {item}*
 
 ### Items
 
